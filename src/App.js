@@ -1,11 +1,13 @@
 import './App.css';
-import Counter from './features/counter/counter';
+import Cart from './features/cart/cart';
+import ProductList from './features/products/product';
 
 function App() {
   return (
     <div className="App">
-     <Counter />
        
+      <ProductList />
+      <Cart />
     </div>
   );
 }
